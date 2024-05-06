@@ -53,4 +53,29 @@ let obj = {
     console.log("Hellon test");
 }
 
-console.log(testFunc);
+// console.log(testFunc);
+
+
+//Stack - primitive - value type
+
+let name1 = "Shrikant"
+
+let name2 = name1
+
+name2 = "SKKK"
+
+// console.log(name1);
+// console.log(name2);
+
+//Heap - non primitive - Reference type
+
+let userOne = {
+    email : "user1@gmail.com",
+    upi : "tess"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user2@gmail.com"
+
+console.table(userOne.email);
