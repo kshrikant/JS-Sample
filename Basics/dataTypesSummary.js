@@ -26,11 +26,6 @@ const bigNumber = 27848343427242342342n
 
 // console.log(typeof bigNumber);
 
-// IMPORTANT
-/*
-the == operator compares the two variables after converting the string "10" to a number, resulting in true. 
-In the second console. log statement, the === operator compares the two variables without converting them, resulting in false.
-*/
 
 //********************/
 // no primitive  - reference type 
